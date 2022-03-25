@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css" media="screen" type="text/css" />
+</head>
+
+<body >
+
+    
+    <div id="firstPage">
+        <div class="container">
+        <h1>Enter Data</h1>
+        <form name="myForm" onsubmit="formValidation(event.preventDefault())">
+
+            Name:     <input type="text" class="data" id="Name" name="Name" required><br>
+            Email:    <input type="email" class="data" id="Email" name="Email"><br>
+            Mobile No:<input type="number" class="data1" id="Mobile" name="Mobile"><br>
+            <button type="submit" value="submit" id="submit" class="submit" >submit</button>
+        </form>
+    </div>
+    </div>
+    <div id="SecondPage">
+        <h1>Get Data</h1>
+        <!-- <button onclick="createtable()" id="btn">Show</button> -->
+        <table class="table">
+            <thead id="thead">
+                <tr id="trow">
+                    <th class="heading">Name</th>
+                    <th class="heading">Email Id</th>
+                    <th class="heading">Mobile Number</th>
+                </tr>
+            </thead>
+            <tbody id="tbody" class="t_body"></tbody>
+        </table>
+    </div>
+    <script src="new.js"></script>
+ 
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+#firstPage{
+    width: 50%;
+    float: left;
+    height: 100vh;
+    
+    background-color: #00ffff;
+}
+#SecondPage{
+    width: 50%;
+    float: right;
+    height: 1000px;
+    background-color: rgb(185, 151, 106);
+    
+}
+input{
+    width: 40%;
+    margin-bottom: 20px 
+}
+.container {
+    width: 500px;
+    clear: both;
+  }
+  .container input {
+    width: 100%;
+    clear: both;
+  }
+  .table{
+      width: 90%;
+      margin: auto;
+      border: 2px solid #000000;
+      padding: auto;
+  }
+  #tbody{
+    width: 90%;
+    margin: auto;
+    border: 2px solid #000000;
+    padding: auto;   
+  }
+  .heading{
+    border: 2px solid #000000;
+  }
+
+
+.table th,
+td {
+    border: 1px solid #3346FF;
+    border-collapse: initial;
+    
+}
